@@ -270,6 +270,9 @@ body {
   padding: 20px;
   z-index: 20;
 }
+.modal-overlay[hidden] {
+  display: none;
+}
 .modal {
   background: var(--card);
   width: 100%;
